@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+:root{
+  --purple: hsl(287, 60%, 67%);
+  --gray: hsl(0, 0%, 50%);
+  --dark-grayish-blue: hsl(218, 12%, 18%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Fira Code', sans-serif;
+}
+
+.footer{
+  margin-top: 60px; 
+  border-top: 1px solid var(--gray);
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+  margin-bottom: 10px;
+  
+}
+
+.tony{
+  text-decoration: none;
+  color: var(--White);
+  
+}
+
+.mern{
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.design{
+  font-size: 15px;
+  color: var(--gray);
+}
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.media2{
+  font-size: 20px;
+  color: var(--White);
+}
+
+.media-link{
+  display: flex;
+  gap: 1rem ;
+}
+
+.tweets{
+  color: var(--gray);
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.made{
+  color: var(--gray);
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.copy{
+  color: var(--gray);
+}
+
+
+@media (min-width: 768px){
+  
+  .footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .head {
+    flex-basis: 30%;
+  }
+
+  .media{
+    margin-right: 60px;
+  }
+
+  .bottom {
+    
+  }
+
+}

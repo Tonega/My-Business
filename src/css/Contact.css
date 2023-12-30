@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+:root{
+  --purple: hsl(287, 60%, 67%);
+  --gray: hsl(0, 0%, 50%);
+  --dark-grayish-blue: hsl(218, 12%, 18%);
+  --White: hsl(0, 0%, 100%);
+}
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-weight: 500;
+      font-family: 'Fira Code', sans-serif;
+  }
+
+  .contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px; 
+  }
+
+  .contacts{
+    margin-top: 70px;
+  }
+
+  .con{
+    color: var(--purple);
+  }
+  
+  .contact-text {
+    color: var(--White);
+  }
+
+  .who{
+    color: var(--White);
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  .hey{
+    color: var(--gray);
+    margin: 18px;
+    font-size: 15px;
+  }
+
+  .here{
+    width: 300px;
+    margin: 25px;
+    padding: 10px;
+    border: 1px solid var(--gray);
+  }
+
+  .message{
+    color: var(--White);
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .tweet{
+    text-decoration: none;
+    color: var(--gray);
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .tweet:hover{
+    color: var(--purple);
+  }
+
+ 
+  
+  @media (min-width: 768px){
+
+    .interest{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hey{
+      width: 50%;
+      /* margin-right: 100px; */
+    }
+  }

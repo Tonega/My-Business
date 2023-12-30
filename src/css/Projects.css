@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+:root{
+  --purple: hsl(287, 60%, 67%);
+  --gray: hsl(0, 0%, 50%);
+  --dark-grayish-blue: hsl(218, 12%, 18%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Fira Code', sans-serif;
+}
+
+
+.wrapper{
+  margin-top: 70px;
+}
+
+.slash{
+  color: var(--purple);
+  margin: 20px;
+  font-size: 2rem;
+}
+
+.slash2{
+  color: var(--White);
+  font-size: 1.7rem;
+}
+
+.list{
+  color: var(--White);
+  margin-left: 20px;
+
+}
+
+.card{
+    background-color: var(--dark-grayish-blue);
+    margin: 10px;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid var(--White)
+  
+  }
+
+  .card:hover{
+    Cursor: pointer !important;
+    Transform: scale(105%)!important;
+  }
+  
+  .image img{
+    width: 100%;
+  }
+  
+  .para1{
+    color: var(--gray);
+    margin-top: 10px;
+  }
+  
+  hr {
+    border: none; 
+    height: 2px; 
+    background-color: var(--White); 
+    margin: 5px 0; 
+    
+  }
+  
+  .title{
+    color: var(--White);
+  }
+  
+  .para2{
+    color: var(--gray);
+  }
+  
+  .link{
+    text-decoration: none;
+    color: var(--White);
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid var(--purple);
+    width: 35%;
+  }
+
+  @media (min-width: 765px){
+    .projects-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px; 
+    }
+
+    .wrap{
+      display: flex;
+      align-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .title{
+      font-size: 18px;
+    }
+    
+  }

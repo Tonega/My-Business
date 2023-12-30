@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+
+:root{
+  --purple: #c778dd;
+  --gray: hsl(0, 0%, 50%);
+  --dark-grayish-blue: hsl(218, 12%, 18%);
+  --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-family: 'Fira Code', sans-serif;
+}
+
+body{
+    background-color: var(--dark-grayish-blue);
+}
+
+.Navbar.Brand a{
+  text-decoration: none;
+  color: var(--White);
+  font-weight: 400;
+
+}
+
+.logo{
+  height: 20px;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
+  background-color: var(--dark-grayish-blue);
+}
+
+.nav-links{
+    display: none !important;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+h6{
+    color: var(--purple);
+    font-weight: 700;
+    font-size: 20px;
+}
+.span{
+    color: var(--gray);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.span:hover{
+  color: var(--White);
+}
+
+
+
+  /* Offcanvas Menu */
+  .offcanvas{
+    background-color: var(--dark-grayish-blue);
+    border: 1px solid white;
+    position: fixed;
+    top: 10% !important; /* Adjust the top position as needed */
+    left: 10% !important;
+    right: 40% !important;
+    width: 80% !important; /* Adjust the width as needed */
+    height: 80%;
+    z-index: 1050; /* Ensure it's above other elements */
+  }
+  
+  .offcanvas-header {
+    border-bottom: 1px solid white; /* Add a border to the offcanvas header */
+  }
+  
+  .offcanvas-title {
+    color: white; /* Set the color of the offcanvas title */
+  }
+
+  .navoff{
+    display: block;
+    justify-content: space-between;
+  }
+  .socials{
+    display: none !important;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.socials2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    position: fixed;
+    top: 80%;
+}
+
+  
+  @media (min-width: 768px) {
+    .nav-links{
+        display: flex !important;
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        align-items: center;
+        margin-left: 50px;
+        width: 60%;
+        color: var(--gray);
+        }
+
+        .socials{
+            display: flex !important;
+            text-decoration: none;
+            list-style-type: none;
+            text-align: center;
+            align-items: center;
+            gap: 1rem;
+            /* justify-content: space-between; */
+            /* width: 25%; */
+        }
+
+        .nav-links .active {
+          color: var(--White);
+        }
+  }
