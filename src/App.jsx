@@ -7,7 +7,7 @@ import Home from './Pages/Home';
 import Works from './Pages/Projects'
 import About from './Pages/About'
 import Contact from './Pages/Contact';
-import Footer from './components/Footer'
+import Footer from './Components/Footer'
 
 function App() {
 
