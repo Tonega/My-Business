@@ -1,13 +1,12 @@
 {
-    "version": 2,
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*)",
-        "status": 404,
-        "headers": {
-          "Cache-Control": "public, max-age=60, must-revalidate"
-        },
-        "continue": true
+        "source": "/404",
+        "destination": "/404.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/404"
       }
     ]
   }
