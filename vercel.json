@@ -1,14 +1,5 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "build/**/*.js",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "build"
-        }
-      }
-    ],
+    "cleanUrls": true,
     "routes": [
       { "handle": "filesystem" },
       {
