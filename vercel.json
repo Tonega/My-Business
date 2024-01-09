@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 404,
+        "headers": {
+          "Cache-Control": "public, max-age=60, must-revalidate"
+        },
+        "continue": true
+      }
+    ]
+  }
+  
