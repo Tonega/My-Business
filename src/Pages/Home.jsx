@@ -114,62 +114,6 @@ const Home = () => {
     </div>
 </div>
 
-
-        {/* <div className='main animate__animated animate__fadeInUp'>
-            <div className="picture animate__animated animate__fadeInUp">
-        <img className='pic animate__animated animate__fadeInUp' src={img5} alt="" />
-        </div>
-            <div className="flex-container animate__animated animate__fadeInUp">
-    <table>
-        <tr>
-            <th>Languages</th>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <th>Databases</th>
-        </tr>
-        <tr>
-            <td>MongoDB</td>
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <th>Frameworks</th>
-        </tr>
-        <tr>
-            <td>Express.js, <br /> Bootstrap, <br /> Node.js</td>
-        </tr>
-    </table>
-</div>
-            <div className="flex-container2 animate__animated animate__fadeInUp">
-
-    <table>
-        <tr>
-            <th>Tools</th>
-        </tr>
-        <tr>
-            <td>Git, VS Code</td>
-            
-        </tr>
-    </table>
-
-    <table>
-        <tr>
-            <th>Others</th>
-        </tr>
-        <tr>
-            <td>HTML, CSS</td>
-        </tr>
-    </table>
-</div>
-</div>             */}
-
         </section>
 
         <h4 className='about1 animate__animated animate__fadeInUp'># <span className='line4'></span> <span className='about3'>about-me</span></h4>

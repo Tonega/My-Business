@@ -130,8 +130,6 @@ h6{
             text-align: center;
             align-items: center;
             gap: 1rem;
-            /* justify-content: space-between; */
-            /* width: 25%; */
         }
 
         .nav-links .active {
