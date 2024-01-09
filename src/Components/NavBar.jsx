@@ -7,7 +7,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import { Link } from 'react-router-dom';
 import { FiAlignRight } from "react-icons/fi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faDiscord, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 import '../css/NavBar.css'
@@ -41,8 +41,8 @@ function NavBar() {
           <Nav.Link as={Link} to="https://github.com/Tonega" target='_blank' style={{ color: '#ff5733', transition: 'color 0.3s' }}>
             <FontAwesomeIcon icon={faGithub} size="2x"/>
             </Nav.Link>
-          <Nav.Link as={Link} to="https:// discordapp.com/users/906604925574856715" target='_blank' style={{ color: '#7289DA', transition: 'color 0.3s'}}>
-            <FontAwesomeIcon icon={faDiscord} size="2x"/>
+          <Nav.Link as={Link} to="https://www.linkedin.com/in/tony-egbah/" target='_blank' style={{ color: '#0077B5', transition: 'color 0.3s'}}>
+            <FontAwesomeIcon icon={faLinkedin} size="2x"/>
             </Nav.Link>
           <Nav.Link as={Link} to="https://twitter.com/Thonieetega" target='_blank' style={{ color: '#1DA1F2', transition: 'color 0.3s' }}>
             <FontAwesomeIcon icon={faXTwitter} size="2x"/>
@@ -64,10 +64,10 @@ function NavBar() {
           <Nav.Link as={Link} to="https://github.com/Tonega" target='_blank' style={{ color: '#ff5733', transition: 'color 0.3s' }}>
             <FontAwesomeIcon icon={faGithub} size="2x"/>
             </Nav.Link>
-          <Nav.Link as={Link} to="https:// discordapp.com/users/906604925574856715" target='_blank' style={{ color: '#7289DA', transition: 'color 0.3s'}}>
-            <FontAwesomeIcon icon={faDiscord} size="2x"/>
+          <Nav.Link as={Link} to='https://www.linkedin.com/in/tony-egbah/' target='_blank' style={{ color: '#0077B5', transition: 'color 0.3s'}}>
+            <FontAwesomeIcon icon={faLinkedin}size="2x"/>
             </Nav.Link>
-          <Nav.Link as={Link} to="https://twitter.com/Thonieetega" target='_blank' style={{ color: '#1DA1F2', transition: 'color 0.3s' }}>
+          <Nav.Link as={Link} to='https://twitter.com/Thonieetega' target='_blank' style={{ color: '#1DA1F2', transition: 'color 0.3s' }}>
             <FontAwesomeIcon icon={faXTwitter} size="2x"/>
             </Nav.Link>
           </Nav>
