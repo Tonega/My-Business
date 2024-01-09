@@ -41,8 +41,7 @@
 }
 
 .lorem{
-  color: var(--gray);
-  /* text-align: center; */
+  color: var(--White);
   font-size: 15px;
   margin: 10px;
 }
